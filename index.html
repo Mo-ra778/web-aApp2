@@ -162,7 +162,7 @@
             </div>
 
             <div class="form-group">
-                <label>أسماء الطلاب (الحد الأدنى 5)</label>
+                <label>ارقام  الطلاب (الحد الأدنى 5)</label>
                 <div id="studentsList"></div>
                 <button type="button" class="btn btn-add" onclick="addStudentField()">+ إضافة طالب آخر</button>
                 <div class="hint">* يجب أن يكون الطلاب من نفس المجموعة العملية</div>
@@ -200,7 +200,7 @@
             const input = document.createElement('input');
             input.type = 'text';
             input.className = 'student-name';
-            input.placeholder = `اسم الطالب ${studentLabel} ورقمه العملي`;
+            input.placeholder = `  رقم الطالب   ${studentLabel}  كما بالعملي `;
             if (isRequired) input.required = true;
 
             div.appendChild(input);
@@ -272,5 +272,6 @@
     </script>
 
 </body>
+
 
 </html>
